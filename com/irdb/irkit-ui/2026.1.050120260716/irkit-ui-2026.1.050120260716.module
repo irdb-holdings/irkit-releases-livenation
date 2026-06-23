@@ -230,26 +230,6 @@
           "md5": "6fac40023946aa3f67ef6c634c754612"
         }
       ]
-    },
-    {
-      "name": "productionReleaseVariantProductionReleaseSourcePublication",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "irkit-ui-2026.1.050120260716-sources.jar",
-          "url": "irkit-ui-2026.1.050120260716-sources.jar",
-          "size": 119182,
-          "sha512": "d0785b9e536e7f1e0c0ebd4053994162a89dbd5b1601d3973cb56978241895dda0a080ad89234bcb7ae051dc4b8e0380b7c500733b4e69049175b1b5676f51fd",
-          "sha256": "344340d6137469c82e877325b56a8f617af6bc91024a502375d50622f53e02b9",
-          "sha1": "0725d5c2b0e66ac46f1351e83e23dc28d45c60c0",
-          "md5": "bb6158ebde356ed6fe131a915b9b9b83"
-        }
-      ]
     }
   ]
 }

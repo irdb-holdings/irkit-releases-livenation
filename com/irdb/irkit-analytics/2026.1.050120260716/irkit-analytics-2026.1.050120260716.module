@@ -120,26 +120,6 @@
           "md5": "479e56515b19f9bfc866a53240c1ed17"
         }
       ]
-    },
-    {
-      "name": "releaseVariantReleaseSourcePublication",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "irkit-analytics-2026.1.050120260716-sources.jar",
-          "url": "irkit-analytics-2026.1.050120260716-sources.jar",
-          "size": 73007,
-          "sha512": "16c1f70ea631dcfdb8aeacf9c6facc50dec09ef3ffd2a414a93f5afdff22d49ec2e83b81018c62f43ccdc03dc620d81afd0c0d21d7d1de8de4420f19282b19ab",
-          "sha256": "a27cba20655ab4c62d257cb2b68cfebdc9fd8bc88c3182be9d883bc89e4d5303",
-          "sha1": "bcb1fa030c69cdb7a98fceaca0d50660ce93ac0c",
-          "md5": "d448b31603e255d4fe0de03553529b4a"
-        }
-      ]
     }
   ]
 }
