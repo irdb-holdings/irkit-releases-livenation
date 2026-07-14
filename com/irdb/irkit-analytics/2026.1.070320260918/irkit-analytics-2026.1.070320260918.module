@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.irdb",
+    "module": "irkit-analytics",
+    "version": "2026.1.070320260918",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "irkit-analytics-2026.1.070320260918.aar",
+          "url": "irkit-analytics-2026.1.070320260918.aar",
+          "size": 326012,
+          "sha512": "a425f09abcc594eaff0ec9810bd213a57fceaceffe13df06d4b58641a1609c4501540aa510e90e6a47c628a90f3174e7f09fd0479db2533a48386dbdec769b50",
+          "sha256": "08a159e81eb983fed149ec95bbd0ed082a1744fd5ac82f8f03a6962c354d15d2",
+          "sha1": "84efffa0f8a43069952b5929c03c63b9c244657c",
+          "md5": "62f724b3859bd8576e35e9ee92ef1d36"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.irdb",
+          "module": "irkit-logging",
+          "version": {
+            "requires": "2026.1.070320260918"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "irkit-analytics-2026.1.070320260918.aar",
+          "url": "irkit-analytics-2026.1.070320260918.aar",
+          "size": 326012,
+          "sha512": "a425f09abcc594eaff0ec9810bd213a57fceaceffe13df06d4b58641a1609c4501540aa510e90e6a47c628a90f3174e7f09fd0479db2533a48386dbdec769b50",
+          "sha256": "08a159e81eb983fed149ec95bbd0ed082a1744fd5ac82f8f03a6962c354d15d2",
+          "sha1": "84efffa0f8a43069952b5929c03c63b9c244657c",
+          "md5": "62f724b3859bd8576e35e9ee92ef1d36"
+        }
+      ]
+    }
+  ]
+}

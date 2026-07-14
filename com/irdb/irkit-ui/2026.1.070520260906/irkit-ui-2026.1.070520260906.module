@@ -1,0 +1,242 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.irdb",
+    "module": "irkit-ui",
+    "version": "2026.1.070520260906",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "productionReleaseVariantProductionReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "irkit-ui-2026.1.070520260906.aar",
+          "url": "irkit-ui-2026.1.070520260906.aar",
+          "size": 1234914,
+          "sha512": "a7f8f9fca76b4a77d4cf7732a12fc1bb4358df20d70c251c89f9f5c37f415f923f5714cfb02ab8798de944194432c61c3a1d44f38f28d401013c4513725a745c",
+          "sha256": "30b2fd6e9a7a8f8d6675c6da42936ef0b1ce680b1670e1589a39f1cf148ae0bf",
+          "sha1": "805d3794a175c0c6fbd36d6accf91a358385ef8d",
+          "md5": "ba5f77533fa975778b7ac4c32e77e012"
+        }
+      ]
+    },
+    {
+      "name": "productionReleaseVariantProductionReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.irdb",
+          "module": "irkit-library",
+          "version": {
+            "requires": "2026.1.070520260906"
+          }
+        },
+        {
+          "group": "com.irdb",
+          "module": "irkit-analytics",
+          "version": {
+            "requires": "2026.1.070520260906"
+          }
+        },
+        {
+          "group": "com.irdb",
+          "module": "irkit-logging",
+          "version": {
+            "requires": "2026.1.070520260906"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.01.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-compose",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-video",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-svg",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-android"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "irkit-ui-2026.1.070520260906.aar",
+          "url": "irkit-ui-2026.1.070520260906.aar",
+          "size": 1234914,
+          "sha512": "a7f8f9fca76b4a77d4cf7732a12fc1bb4358df20d70c251c89f9f5c37f415f923f5714cfb02ab8798de944194432c61c3a1d44f38f28d401013c4513725a745c",
+          "sha256": "30b2fd6e9a7a8f8d6675c6da42936ef0b1ce680b1670e1589a39f1cf148ae0bf",
+          "sha1": "805d3794a175c0c6fbd36d6accf91a358385ef8d",
+          "md5": "ba5f77533fa975778b7ac4c32e77e012"
+        }
+      ]
+    }
+  ]
+}
